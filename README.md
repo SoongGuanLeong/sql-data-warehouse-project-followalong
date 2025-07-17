@@ -64,3 +64,40 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ---
 
 ## 📂 Repository Structure
+```
+sql-data-warehouse-project-followalong/
+├── LICENSE                                # License information for the repository
+├── README.md                              # Project overview and instructions
+├── datasets/                              # Raw datasets used for the project (CRM and ERP data)
+|
+├── docs/                                  # Project documentation and architecture details
+│   ├── data_architecture.drawio           # Draw.io file shows the project's architecture
+│   ├── data_architecture.png
+│   ├── data_catalog.md                    # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                   # Draw.io file for the data flow diagram
+│   ├── data_flow.png
+│   ├── data_integration.drawio            # Draw.io file to show how tables are related
+│   ├── data_integration.png
+│   ├── data_model.drawio                  # Draw.io file for data models (star schema)
+│   ├── data_model.png
+│   ├── naming_conventions.md              # Consistent naming guidelines for tables, columns, and files
+│   └── teaching-material-by-Baraa         # Some files the tutor drew using Procreate to ease teaching
+│       ├── ETL.png                        # photo that shows all differnt techniques and methods of ETL
+│       ├── Project_Notes_Sketches.pdf
+│       └── data_layers.pdf
+|
+├── scripts/                               # SQL scripts for ETL and transformations
+│   ├── bronze/                            # Scripts for extracting and loading raw data
+│   ├── gold/                              # Scripts for creating analytical models
+│   └── silver/                            # Scripts for cleaning and transforming data
+│   ├── init_database.sql
+|
+└── tests/                                 # Test scripts and quality files
+    ├── quality_checks_gold.sql
+    └── quality_checks_silver.sql
+```
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
